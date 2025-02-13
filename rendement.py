@@ -9,7 +9,7 @@ def vastBedrag(bedragVast, duurJaren, rendementFactor):
     return bedragVastWaarde
 
 # Berekent de verwachte waarde van een periodiek bedrag aan de hand van een looptijd in jaren en een percentage.
-def periodeBedrag(periodeJaren = False, duurJaren = 0, bedragPeriode = 0, rendementFactor = 1):
+def periodeBedrag(duurJaren, bedragPeriode, rendementFactor, periodeJaren = False):
     bedragPeriodeTotaal_lijst = []
     bedragPeriodeWaarde_lijst = []
     if periodeJaren == True:
